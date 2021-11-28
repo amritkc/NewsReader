@@ -1,0 +1,25 @@
+.header {
+  -webkit-box-shadow: 0px 0px 3px 0px rgb(223, 222, 222) !important;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 0px 3px 0px rgb(223, 222, 222) !important;
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px 0px 3px 0px rgb(223, 222, 222) !important;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_search {
+  display: flex;
+}
+.btn_advance {
+  margin-left: 8px;
+  padding-left: 12px;
+  height: 5ch;
+  margin-top: 8px;
+  padding-right: 8px;
+  outline: none;
+  color: black;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #2d68e4;
+}

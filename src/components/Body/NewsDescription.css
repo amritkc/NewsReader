@@ -1,0 +1,31 @@
+.NewsDescription {
+  padding: 35px;
+}
+.NewsDescription p {
+  margin-top: 20px;
+  word-spacing: 4px;
+  padding-right: 20px;
+  letter-spacing: 1px;
+}
+.News_div {
+  margin-top: 40px;
+  padding-right: 80px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.hrapp {
+  margin-top: 12px;
+}
+.newspub {
+  display: flex;
+}
+.spanid {
+  padding: 12px;
+  margin-right: 12px;
+  border-radius: 12px;
+  background-color: #ccc;
+}
+.newspub h3 {
+  color: #2d68e4;
+}
