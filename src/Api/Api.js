@@ -16,5 +16,3 @@ const ApiCallData = async (apidata) => {
   return data;
 };
 export default ApiCallData;
-
-//Api call Category

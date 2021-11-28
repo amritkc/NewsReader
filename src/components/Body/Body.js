@@ -9,16 +9,21 @@ import { DateRangePickerComponent } from "@syncfusion/ej2-react-calendars";
 import ApiCallData from "../../Api/Api";
 
 export default function Body(props) {
+  const [myValue, setMyValue] = useState("");
   const [NewsData, setNewsData] = useState(props.beforeResult);
   const [detail, setDetail] = useState([]);
-  const [focousnews, setFocusNews] = useState("");
   const [startdate, setStartDate] = useState(null);
   const [enddate, setEnddate] = useState(null);
-  const [beforedata, setBeforeData] = useState(props.beforeResult);
 
+  useEffect(() => {
+    setMyValue(props.textSearch);
+  }, [props.textSearch]);
+
+  // console.log(myValue);
   useEffect(async () => {
-    if (props.textSearch != "") {
+    if (myValue != "") {
       textSearch();
+      setMyValue("");
     } else if (startdate != null) {
       DateSearch();
     } else if (
@@ -37,7 +42,6 @@ export default function Body(props) {
 
   //search query
   const textSearch = async () => {
-    let advance = [props.category, props.sentiments, props.source];
     // advance.map((data) =>{
     //   if(data)
     // })
