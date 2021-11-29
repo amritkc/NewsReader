@@ -27,7 +27,7 @@
   "scripts": {
     "heroku-prebuild": "npm install -g serve",
     "devstart": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "date-fns": "^2.26.0",
     "test": "react-scripts test",
