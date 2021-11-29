@@ -1,6 +1,6 @@
-#Demo of Websit 
+# Demo of Website
 
-https://newsheader.herokuapp.com/
+# https://newsheader.herokuapp.com/
 
 
 # Getting Started with Create React App
